@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Task.Create_Contacts_WithDate">
+        <methods>
+          <include name="login"/>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="createContact"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- Task.Create_Contacts_WithDate -->
+      <class name="Task.Create_Organization">
+        <methods>
+          <include name="login"/>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="logout"/>
+          <include name="createOrganization"/>
+        </methods>
+      </class> <!-- Task.Create_Organization -->
+      <class name="Task.Create_OrganizationWithIndustry">
+        <methods>
+          <include name="login"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="logout"/>
+          <include name="createOrganizationWithIndustry"/>
+        </methods>
+      </class> <!-- Task.Create_OrganizationWithIndustry -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

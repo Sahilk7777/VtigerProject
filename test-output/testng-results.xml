@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-02T10:32:55 IST" name="Suite" finished-at="2024-08-02T10:32:59 IST" duration-ms="4218">
+    <groups>
+    </groups>
+    <test started-at="2024-08-02T10:32:55 IST" name="Test" finished-at="2024-08-02T10:32:59 IST" duration-ms="4218">
+      <class name="Task.Create_Organization">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:Task.Create_Organization@350aac89]" started-at="2024-08-02T10:32:55 IST" name="preCondition" finished-at="2024-08-02T10:32:57 IST" duration-ms="2038" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[null value in entry: url=null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
+at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:43)
+at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:83)
+at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:130)
+at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:191)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+at Com.crm.BaseClass.BaseClass.preCondition(BaseClass.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Task.Create_Organization@350aac89]" started-at="2024-08-02T10:32:57 IST" name="login" finished-at="2024-08-02T10:32:57 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createOrganization()[pri:0, instance:Task.Create_Organization@350aac89]" started-at="2024-08-02T10:32:57 IST" name="createOrganization" finished-at="2024-08-02T10:32:57 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[null value in entry: url=null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
+at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:43)
+at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:83)
+at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:130)
+at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:191)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+at Com.crm.BaseClass.BaseClass.preCondition(BaseClass.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Task.Create_Organization@350aac89]" started-at="2024-08-02T10:32:57 IST" name="logout" finished-at="2024-08-02T10:32:57 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:Task.Create_Organization@350aac89]" started-at="2024-08-02T10:32:57 IST" name="postCondition" finished-at="2024-08-02T10:32:57 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- Task.Create_Organization -->
+      <class name="Task.Create_OrganizationWithIndustry">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:Task.Create_OrganizationWithIndustry@4b29d1d2]" started-at="2024-08-02T10:32:57 IST" name="preCondition" finished-at="2024-08-02T10:32:58 IST" duration-ms="1020" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[null value in entry: url=null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
+at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:43)
+at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:83)
+at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:130)
+at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:191)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+at Com.crm.BaseClass.BaseClass.preCondition(BaseClass.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Task.Create_OrganizationWithIndustry@4b29d1d2]" started-at="2024-08-02T10:32:58 IST" name="login" finished-at="2024-08-02T10:32:58 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createOrganizationWithIndustry()[pri:0, instance:Task.Create_OrganizationWithIndustry@4b29d1d2]" started-at="2024-08-02T10:32:58 IST" name="createOrganizationWithIndustry" finished-at="2024-08-02T10:32:58 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[null value in entry: url=null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
+at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:43)
+at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:83)
+at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:130)
+at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:191)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+at Com.crm.BaseClass.BaseClass.preCondition(BaseClass.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationWithIndustry -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Task.Create_OrganizationWithIndustry@4b29d1d2]" started-at="2024-08-02T10:32:58 IST" name="logout" finished-at="2024-08-02T10:32:58 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:Task.Create_OrganizationWithIndustry@4b29d1d2]" started-at="2024-08-02T10:32:58 IST" name="postCondition" finished-at="2024-08-02T10:32:58 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- Task.Create_OrganizationWithIndustry -->
+      <class name="Task.Create_Contacts_WithDate">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:Task.Create_Contacts_WithDate@7f485fda]" started-at="2024-08-02T10:32:58 IST" name="preCondition" finished-at="2024-08-02T10:32:59 IST" duration-ms="1106" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[null value in entry: url=null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
+at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:43)
+at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:83)
+at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:130)
+at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:191)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+at Com.crm.BaseClass.BaseClass.preCondition(BaseClass.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Task.Create_Contacts_WithDate@7f485fda]" started-at="2024-08-02T10:32:59 IST" name="login" finished-at="2024-08-02T10:32:59 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createContact()[pri:0, instance:Task.Create_Contacts_WithDate@7f485fda]" started-at="2024-08-02T10:32:59 IST" name="createContact" finished-at="2024-08-02T10:32:59 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[null value in entry: url=null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: null value in entry: url=null
+at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:43)
+at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:83)
+at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:130)
+at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:191)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+at Com.crm.BaseClass.BaseClass.preCondition(BaseClass.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:Task.Create_Contacts_WithDate@7f485fda]" started-at="2024-08-02T10:32:59 IST" name="postCondition" finished-at="2024-08-02T10:32:59 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Task.Create_Contacts_WithDate@7f485fda]" started-at="2024-08-02T10:32:59 IST" name="logout" finished-at="2024-08-02T10:32:59 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Task.Create_Contacts_WithDate -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
